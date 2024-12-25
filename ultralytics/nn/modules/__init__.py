@@ -25,7 +25,7 @@ from .head import Classify, Detect, Pose, RTDETRDecoder, Segment
 from .transformer import (AIFI, MLP, DeformableTransformerDecoder, DeformableTransformerDecoderLayer, LayerNorm2d,
                           MLPBlock, MSDeformAttn, TransformerBlock, TransformerEncoderLayer, TransformerLayer)
 from .yolo_spikformer import (MS_GetT,MS_CancelT, MS_ConvBlock, MS_DownSampling, MS_StandardConv,SpikeSPPF,SpikeConv,MS_Concat,SpikeDetect
-                              ,MS_AllConvBlock,)
+                              ,MS_AllConvBlock,SpikeC2PSA)
 
 __all__ = ('Conv',  'LightConv', 'RepConv', 'DWConv', 'DWConvTranspose2d', 'ConvTranspose', 'Focus',
            'GhostConv', 'ChannelAttention', 'SpatialAttention', 'CBAM', 'Concat', 'TransformerLayer',
