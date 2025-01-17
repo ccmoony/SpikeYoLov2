@@ -1,5 +1,8 @@
 # SpikeYOLOv2: Advancing SpikeYOLO for Efficient and Robust Object Detection
-
+## 🚀 Training
+```bash
+python train.py
+```
 
 ## Thanks
 
