@@ -22,7 +22,7 @@ python train.py --config "snn_yolov11_head.yaml"
 python train.py --config "snn_yolov11_SpikeC2PSA.yaml"
 ```
 ### Test
-Change the checkpoint path in `test.py` to the path of the trained model and run the following commands to test the performance of the model.
+Change the checkpoint path in `test.py` to the path of the trained model and run the following commands to test the performance of the models that only change classifier head or SpikeC2PSA module.
 ```bash
 python test.py
 ```
